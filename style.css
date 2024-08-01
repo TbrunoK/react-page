@@ -136,14 +136,16 @@ label input:checked + p {
 }
 
 footer {
-  text-decoration: underline;
+  
   display: flex;
   text-align: center;
   justify-content: center;
-  color: #7c7c8a;
+  
   font-size: 16px;
 }
 
-footer p {
+footer a {
   margin-bottom: 20px;
+  color: #7c7c8a;
+  text-decoration: underline;
 }
