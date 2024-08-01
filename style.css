@@ -106,6 +106,7 @@
   height: 24px;
   border-radius: 4px;
   cursor: pointer;
+  background: var(--gray-800);
 }
 
 .cbox input:checked {
