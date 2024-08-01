@@ -1,0 +1,47 @@
+/* Reset */
+
+* {
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--gray-900);
+  margin: 0px;
+  justify-content: center;
+
+  font-family: "inter", sans-serif;
+}
+
+h1,
+h2,
+p {
+  margin: 0px;
+}
+
+/* Reset de estilos para garantir consistência */
+form, input, button, textarea, select {
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+    background: none;
+    color: inherit;
+    box-sizing: border-box;
+}
+
+/* Remove outline no focus */
+input:focus, textarea:focus, select:focus, button:focus {
+    outline: none;
+}
+
+/* Estilo básico para botões */
+button {
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid transparent;
+}
+
+

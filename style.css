@@ -1,0 +1,126 @@
+@import url(./css/reset.css);
+
+/* Variáveis */
+:root {
+  --cyan-500: #81d8f7;
+
+  --gray-100: #e1e1e6;
+  --gray-800: #202024;
+  --gray-900: #121214;
+}
+
+.react-img {
+  display: flex;
+}
+
+.react-img img {
+  margin-top: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.texto-logo {
+  display: flex;
+  margin-top: 18px;
+}
+
+.texto-logo h1 {
+  font-family: "Inter", sans-serif;
+  font-size: 32px;
+  color: var(--gray-100);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sub-texto {
+  display: flex;
+}
+
+.sub-texto p {
+  font-size: 18px;
+  color: var(--gray-100);
+  margin-top: 7px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+
+  max-width: 401px;
+  max-height: 297px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 40px;
+}
+
+.formularios {
+  justify-content: center;
+
+  margin-top: 39px;
+
+  color: var(--gray-100);
+}
+
+.formularios h2 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  text-align: left;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  background: var(--gray-800);
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.input-container img {
+  margin-right: 10px;
+}
+
+.formularios input {
+  color: var(--gray-100);
+}
+
+.input-2 {
+  margin-top: 24px;
+}
+
+.cbox {
+  display: flex;
+  color: white;
+  margin-top: 18px;
+}
+
+.cbox input {
+  width: 24px;
+  height: 24px;
+  border-radius: 4px;
+  accent-color: var(--gray-800);
+}
+
+.cbox input:checked {
+  width: 24px;
+  height: 24px;
+  border-radius: 4px;
+  accent-color: var(--gray-800);
+}
+
+.cbox p {
+  margin-left: 8px;
+}
+
+.btn {
+  margin-top: 32px;
+
+  padding: 20px;
+  background: var(--cyan-500);
+  border-radius: 4px;
+
+  font-weight: 600;
+  color: black;
+}
