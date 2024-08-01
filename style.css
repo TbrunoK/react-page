@@ -92,15 +92,20 @@
 
 .cbox {
   display: flex;
-  color: white;
+  color: red;
   margin-top: 18px;
+}
+
+.cbox label {
+  display: flex;
+  justify-content: center;
 }
 
 .cbox input {
   width: 24px;
   height: 24px;
   border-radius: 4px;
-  accent-color: var(--gray-800);
+  cursor: pointer;
 }
 
 .cbox input:checked {
@@ -108,6 +113,10 @@
   height: 24px;
   border-radius: 4px;
   accent-color: var(--gray-800);
+}
+
+label input:checked + p {
+  color: white;
 }
 
 .cbox p {
@@ -123,4 +132,17 @@
 
   font-weight: 600;
   color: black;
+}
+
+footer {
+  text-decoration: underline;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  color: #7c7c8a;
+  font-size: 16px;
+}
+
+footer p {
+  margin-bottom: 20px;
 }
